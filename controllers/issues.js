@@ -48,7 +48,7 @@ async function scrapeAllGoodFirstIssues(org, repo) {
     hasNextPage = nextPageLink ? true : false;
     page++;
 
-    // Delay for a short period between page requests to avoid overwhelming the server
+    // Delay
     await delay(1000);
   }
 
@@ -109,7 +109,7 @@ const getHelpWantedIssues = async (req, res) => {
       hasNextPage = nextPageLink ? true : false;
       page++;
   
-      // Delay for a short period between page requests to avoid overwhelming the server
+      // Delay 
       await delay(1000);
     }
   
@@ -166,7 +166,7 @@ const getFirstTimersOnly = async (req, res) => {
       hasNextPage = nextPageLink ? true : false;
       page++;
   
-      // Delay for a short period between page requests to avoid overwhelming the server
+      // Delay
       await delay(1000);
     }
   
