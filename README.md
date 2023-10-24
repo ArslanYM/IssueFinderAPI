@@ -1,6 +1,6 @@
 # Starter Hive Issues Finder
 - Created For [Starter Hive](https://starter-hive.vercel.app/)  
-- The API is live on [Render](https://issuefinder.onrender.com/api)
+- The API is live on [Render](https://issue-finder-api.vercel.app/api)
 
 ## Development Guide  :
 
@@ -26,3 +26,8 @@
 - `/api/all/:org/:repo` -> to get all issues from the repo.
 
  - e.g. "http://localhost:3000/api/all/coral-xyz/backpack"
+
+
+
+
+ Created By Sabir & Arsalan
